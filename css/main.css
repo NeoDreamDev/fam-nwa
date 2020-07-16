@@ -251,6 +251,13 @@ span.navbar-toggler-icon:focus {
     padding-top: 2.5rem;
 }
 
+.qty-input {
+    background: transparent;
+    border: 1px solid #57190e;
+    width: 30px;
+    color: #57190e;
+}
+
 /* MEDIA QUERIES */
 @media(max-width:500px) {
     .sm-hide {
