@@ -1,0 +1,279 @@
+body {
+    background: #f1be96;
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #57190e;
+    padding-bottom: 50px;
+}
+
+/* NAViGATION */
+#navbar {
+    background: #f1be96;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: rgba(167, 108, 31, .75);
+}
+
+#navbar a:hover {
+    color: rgba(167, 108, 31, 1);
+    transition: all 2ms ease-in;
+}
+
+#navbar .nav-item .current {
+    color: rgba(167, 108, 31, 1);
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-family: 'Audiowide', cursive;
+    color: rgb(174, 89, 56) !important;
+    font-size: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #57190e;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgba(87, 25, 14, .75);
+}
+
+.breadcrumb {
+    background: transparent;
+}
+
+/* DropDown Menu */
+.dropdown-menu {
+    background-color: #f1be96;
+    border: none;
+}
+
+/* DropDown Menu End */
+/* NAVIGATION END */
+
+/* CAROUSEL */
+
+.carousel {
+    height: 100%;
+}
+
+/* This allows the images of the carousel to be the full height of the viewport */
+.carousel {
+    height: calc(100vh - 56px);
+}
+
+.carousel-inner,
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item {
+    background-color: #f1be96;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-img-1 {
+    background-color: #f1be96;
+    background-image: url(../img/goldScarf.png);
+    background-position: center;
+    background-size: center;
+}
+
+.carousel-img-2 {
+    background-color: #f1be96;
+    background-image: url(../img/cyanScarf.png);
+    background-position: center;
+    background-size: center;
+}
+
+.carousel-img-3 {
+    background-color: #f1be96;
+    background-image: url(../img/brownScarf.png);
+    background-position: center;
+    background-size: center;
+}
+
+.carousel-img-1,
+.carousel-img-2,
+.carousel-img-3 {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* end of full height carousel */
+
+/* FOOTER */
+.social-media .icon,
+footer .nav-link {
+    color: rgba(68, 32, 20);
+}
+
+.social-media .icon:focus,
+footer .nav-link:focus,
+.social-media .icon:hover,
+footer .nav-link:hover {
+    color: rgba(68, 32, 20, .75);
+}
+
+
+.jumbotron {
+    position: relative;
+    margin-top: 1rem;
+    width: 100%;
+    height: 55vh;
+}
+
+.about-tron {
+    background: #f1be96 url(../img/bangles2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1px;
+}
+
+.shop-tron {
+    background: #f1be96 url(../img/bangles.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1px;
+}
+
+.hamburger {
+    color: rgba(167, 108, 31, 1);
+    padding-top: 4px;
+    padding-right: 2px;
+}
+
+p {
+    color: #57190e;
+}
+
+.form-control:focus {
+    outline: none;
+}
+
+button.navbar-toggler:focus,
+span.navbar-toggler-icon:focus {
+    outline: none;
+}
+
+.input-group-text {
+    background-color: #fff;
+    outline: none;
+    border: none;
+}
+
+.row .col-md-4 .card {
+    background: transparent;
+    border: none;
+}
+
+.add-cart {
+    width: 100vw;
+    background-color: rgba(87, 25, 14, .75);
+    transition: all 0.1s ease;
+    cursor: pointer;
+    padding: 10px;
+    color: rgba(167, 108, 31, 1);
+    text-decoration: none;
+    border-radius: 1px;
+}
+
+.cusButton {
+    background-color: rgba(87, 25, 14, .75);
+    transition: all 0.1s ease;
+    cursor: pointer;
+    padding: 10px;
+    color: rgba(167, 108, 31, 1);
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.add-cart:hover,
+.cusButton:hover {
+    text-decoration: none;
+    color: rgb(199, 123, 23);
+}
+
+/* CART PAGE */
+
+.products img {
+    max-width: 120px;
+}
+
+.products-container {
+    color: #57190e;
+}
+
+.products-container ion-icon {
+    color: #57190e;
+    cursor: pointer;
+}
+
+
+/* Shopping Page */
+.card-img-top {
+    box-shadow: 0 5px 25px 0 rgba(87, 25, 14, .30);
+}
+
+.lead {
+    text-shadow: rgba(87, 25, 14, .75);
+}
+
+.display-4,
+.lead {
+    text-shadow: 0 0 1px #f1be96;
+    background-color: #f1be96;
+    padding: 6px;
+}
+
+.lead {
+    background-color: #f1be96;
+}
+
+.display-4 {
+    display: inline-block;
+}
+
+.policy-container {
+    padding-top: 2.5rem;
+}
+
+/* MEDIA QUERIES */
+@media(max-width:500px) {
+    .sm-hide {
+        display: none;
+    }
+
+    /* .contact-container .form-group {
+        padding-top: 1rem;
+    } */
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .form-group #name {
+        padding-top: 1rem;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
