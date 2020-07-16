@@ -119,9 +119,9 @@ function displayCart() {
             </th>
             <td class="price sm-hide">$${item.price}.00</td>
             <td class="quantity">
-            <i class="fas fa-arrow-alt-circle-right decrease"></i>
+            <i class="fas fa-arrow-alt-circle-left decrease"></i>
                 <span>${item.inCart}</span>
-                <i class="fas fa-arrow-alt-circle-left increase"></i>
+                <i class="fas fa-arrow-alt-circle-right increase"></i>
             </td>
             <td class="total">
                 $${item.inCart * item.price}.00
