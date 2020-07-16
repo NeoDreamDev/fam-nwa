@@ -119,9 +119,9 @@ function displayCart() {
             </th>
             <td class="price sm-hide">$${item.price}.00</td>
             <td class="quantity">
-                <ion-icon class="decrease" name="caret-back-outline"></ion-icon>
+            <i class="fas fa-arrow-alt-circle-right decrease"></i>
                 <span>${item.inCart}</span>
-                <ion-icon class="increase" name="caret-forward-outline"></ion-icon>
+                <i class="fas fa-arrow-alt-circle-left increase"></i>
             </td>
             <td class="total">
                 $${item.inCart * item.price}.00
@@ -197,7 +197,7 @@ function manageQuantity() {
 }
 
 function deleteButtons() {
-  let deleteButtons = document.querySelectorAll(".products ion-icon");
+  let deleteButtons = document.querySelectorAll(".products i");
   let productNumbers = localStorage.getItem("cartNumbers");
   let cartCost = localStorage.getItem("totalCost");
   let cartItems = localStorage.getItem("productsInCart");
