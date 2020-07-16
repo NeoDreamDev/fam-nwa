@@ -113,7 +113,7 @@ function displayCart() {
       productContainer.innerHTML += `
       <tr>
             <th class="product">
-            <ion-icon name="close-circle"></ion-icon>
+            <i class="fas fa-times-circle"></i>
                 <img src="img/${item.tag}.png">
                 <span class="sm-hide">${item.name}</span>
             </th>
