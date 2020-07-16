@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <title>Fam N'wah | HOME</title>
+    <title>Fam N'wah | CART</title>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item px-2">
-                    <a class="nav-link current" href="index.html">HOME</a>
+                    <a class="nav-link" href="index.html">HOME</a>
                 </li>
                 <li class="nav-item px-2">
                     <a class="nav-link" href="shop.html">SHOP</a>
@@ -36,37 +36,44 @@
           <a class="nav-link" href="search.html"><i class="fas fa-search"></i></a>
         </li> -->
                 <li class="nav-item px-2">
-                    <a class="nav-link cart" href="cart.html">CART(<span>0</span>)</a>
+                    <a class="nav-link cart current" href="cart.html">CART(<span>0</span>)</a>
                 </li>
             </ul>
         </div>
     </nav>
     <!-- NAVBAR END -->
 
-    <!-- CAROUSEL -->
-    <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active  min-vh-100" data-interval="5000">
-                <span class="carousel-img-1"></span>
-            </div>
-            <div class="carousel-item min-vh-100" data-interval="5000">
-                <span class="carousel-img-2"></span>
-            </div>
-            <div class="carousel-item min-vh-100" data-interval="5000">
-                <span class="carousel-img-3"></span>
-            </div>
-        </div>
+    <!-- BREADCRUMB START -->
+    <div class="container-fluid">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item current" aria-current="page">Cart</li>
+            </ol>
+        </nav>
     </div>
-    <!-- CAROUSEL END -->
+    <!-- BREADCRUMB END -->
+
+    <div class="container">
+        <table class="table table-borderless cart-container products-container">
+            <thead class="product-header">
+                <tr>
+                    <th class="product-title">PRODUCT</th>
+                    <th class="price sm-hide">PRICE</th>
+                    <th class="quantity">QTY</th>
+                    <th class="total">TOTAL</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody class="products">
+
+            </tbody>
+        </table>
+    </div>
 
     <!-- FOOTER -->
     <footer class="mt-5 pt-5 text-center">
-        <a href="#" class="social-media"><i class="fab fa-instagram fa-2x p-2 icon"></i></a>
+        <a href="details.html" class="social-media"><i class="fab fa-instagram fa-2x p-2 icon"></i></a>
         <a href="#" class="social-media"><i class="far fa-envelope fa-2x p-2 icon"></i></a>
         <ul class="nav justify-content-center pb-2">
             <li class="nav-item"><a href="policies.html" class="nav-link">POLICIES</a></li>
@@ -86,7 +93,6 @@
     </script>
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     <script src="js/main.js"></script>
-
 </body>
 
 </html>
